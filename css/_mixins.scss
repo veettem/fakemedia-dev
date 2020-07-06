@@ -1,0 +1,47 @@
+@mixin no-margin{
+    margin: 0;
+}
+@mixin no-padding{
+    padding: 0;
+}
+@mixin container-width{
+    width: 1170px;
+    margin: 0px auto;
+}
+@mixin text-align($text-align){
+    text-align:$text-align;
+}
+@mixin flex{
+    display: flex;
+    display: -webkit-flex;
+}
+@mixin flex-direction($flex-direction){
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: $flex-direction;
+}
+@mixin flex-align-items($align-items){
+    display: flex;
+    display: -webkit-flex;
+    align-items: $align-items;
+}
+@mixin flex-justify-content($justify-content){
+    display: flex;
+    display: -webkit-flex;
+    justify-content: $justify-content;
+}
+@mixin login-input-style{
+    font-family: $font-family-main;
+    border: 0;
+    width: 100%;
+    border-bottom: 1px solid #999;
+    padding: 8px 25px;
+}
+@mixin btn-submit{
+    background-color: $btn-submit;
+    color: $white;
+    border: 0;
+    border-radius: 3px;
+    padding: 8px 20px;
+    margin-top: 10px;
+}

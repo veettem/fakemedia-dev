@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Login-Page </title> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/webstyles.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+<main>
+    <header>
+        <div class="container-width">
+            <div class="logo">
+                <h3> LOGO </h3>
+            </div>
+        </div>
+    </header>
+
+    <section class="login">
+        <div class="container-width">
+            <div class="login__content">
+                <div class="login__image">
+                    <img src="./images/login-banner.jpg">
+                </div>
+
+                <div class="login__details">
+                    <h2 class="head-login"> Login </h2>
+                    <h2 class="head-verification"> E-mail Verification </h2>
+                    <form method="" action="">
+
+                        <div id="login-user" class="login__input">
+                            <input type="text" id="" name="" placeholder="User Name">
+                            <i class="fa fa-user-o"></i>
+                        </div>
+
+                        <div id="login-password" class="login__input">
+                            <input type="password" id="" name="" placeholder="Password">
+                            <i class="fa fa-lock"></i>
+                        </div>
+
+                        <div id="login-email" class="login__input">
+                            <input type="text" id="" name="" placeholder="Please Enter E-mail">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+
+                        <a href="#forgetpwd"  onclick="changeinput()" class="forget-pwd"> Forget Password ? </a>
+                        <a href="#login"  onclick="changeinputlogin()" class="again-login"> Login </a>
+                        <button type="submit" id="" name="" class="login__login login-btn"> Login </button>
+                        <button type="submit" id="" name="" class="login__login send-btn"> Send </button>
+                    </form>
+
+                    <div class="login__social">
+                        <p>
+                            <b> Or also login with </b>
+                            <span> <img src="./images/facebook.png"> </span>
+                            <span> <img src="./images/linkedin.png"> </span>
+                            <span> <img src="./images/google-plus.png"> </span>
+                        </p>
+                    </div>
+
+                    <div class="login__register">
+                        <p>
+                            <a href="#"> Doesn't have an account ? </a> <span> Register </span>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>    
+<script src="./js/jquery.min.js"></script>
+<script src="./js/custom-script.js"></script>
+</body>
+</html>

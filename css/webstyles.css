@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+
+:focus {
+  outline: none;
+}
+
+body,
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+header {
+  background-color: #3e3da3;
+}
+
+header .container-width {
+  width: 1170px;
+  margin: 0px auto;
+}
+
+header .container-width h3 {
+  color: white;
+  padding: 10px 0;
+}
+
+.login {
+  background-color: white;
+}
+
+.login .container-width {
+  width: 1170px;
+  margin: 0px auto;
+}
+
+.login__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login__image img {
+  max-width: 100%;
+}
+
+.login__details h2 {
+  margin-bottom: 20px;
+}
+
+.login__details a {
+  font-size: 12px;
+  text-decoration: none;
+  text-align: right;
+  display: block;
+  color: blue;
+}
+
+.login__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.login__input input {
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  width: 100%;
+  border-bottom: 1px solid #999;
+  padding: 8px 25px;
+}
+
+.login__input input::-webkit-input-placeholder {
+  color: #999;
+}
+
+.login__input input:-ms-input-placeholder {
+  color: #999;
+}
+
+.login__input input::-ms-input-placeholder {
+  color: #999;
+}
+
+.login__input input::placeholder {
+  color: #999;
+}
+
+.login__input input:focus {
+  outline: none;
+}
+
+.login__input .fa {
+  position: absolute;
+  top: 8px;
+  left: 0;
+}
+
+.login__login {
+  background-color: #3c3ea5;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  padding: 8px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.login__social {
+  margin-top: 20px;
+}
+
+.login__social p {
+  font-size: 12px;
+}
+
+.login__social p b {
+  vertical-align: top;
+  line-height: 30px;
+  margin-right: 10px;
+}
+
+.login__social span img {
+  width: 30px;
+  height: 30px;
+  margin: 0px 3px;
+}
+
+.login__register {
+  font-size: 12px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login__register p a {
+  display: inline-block;
+}
+
+.login__register span {
+  font-weight: bold;
+}
+/*# sourceMappingURL=webstyles.css.map */
