@@ -3,6 +3,8 @@ $(document).ready(function(){
     $('.again-login').hide();
     $('.send-btn').hide();
     $('.head-verification').hide();
+    $('#registerA').hide();
+    $('.overlay').hide();
 });
 
 function changeinput(){
@@ -27,4 +29,14 @@ function changeinputlogin(){
     $('.send-btn').hide();
     $('.head-verification').hide();
     $('.head-login').show();
+}
+
+function createA(){
+    $('#registerA').show();
+    $('.overlay').show();
+}
+
+function createClose(){
+    $('#registerA').hide();
+    $('.overlay').hide();
 }

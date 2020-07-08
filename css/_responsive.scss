@@ -1,0 +1,8 @@
+@import "./mixins";
+@import "./variables";
+
+@media (max-width:1169px){
+    .container-width{
+        width: 80% !important;
+    }
+}

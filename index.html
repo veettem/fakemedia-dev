@@ -8,6 +8,7 @@
 </head>
 <body>
 <main>
+    <div class="overlay"></div>
     <header>
         <div class="container-width">
             <div class="logo">
@@ -60,14 +61,65 @@
 
                     <div class="login__register">
                         <p>
-                            <a href="#"> Doesn't have an account ? </a> <span> Register </span>
+                            <a href="#creataccount" onclick="createA()"> Doesn't have an account ? </a> <span> Register </span>
                         </p>
                     </div>
-
                 </div>
             </div>
         </div>
     </section>
+
+    <div id="registerA" class="register">
+        <div class="register__form">
+            <h2> Register </h2>
+            <form action="" method="">
+
+                <div class="login__input">
+                    <input type="text" id="" name="" placeholder="Username">
+                    <i class="fa fa-user"></i>
+                </div>
+
+                <div class="login__input">
+                    <input type="text" id="" name="" placeholder="Enter E-mail">
+                    <i class="fa fa-envelope"></i>
+                </div>
+
+                <div class="login__input">
+                    <input type="password" id="" name="" placeholder="Password">
+                    <i class="fa fa-lock"></i>
+                </div>
+
+                <div class="login__input">
+                    <input type="password" id="" name="" placeholder="Confirm Password">
+                    <i class="fa fa-lock"></i>
+                </div>
+
+                <div class="login__input">
+                    <input type="text" id="" name="" placeholder="DOB" onfocus="(this.type='date')">
+                    <i class="fa fa-calendar"></i>
+                </div>
+
+                <div class="login__input login__gender">
+                    <label> <i class="fa fa-mars"></i> <span> Gender : </span></label>
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                </div>
+
+                <p class="login__agree">
+                    <input type="checkbox" name="" id="">
+                    i agree all statements in <a href="#"> Terms of Service </a>
+                </p>
+
+                <button type="submit" id="" name="" class="login__login login-btn login__submit"> Submit </button>
+
+            </form>
+
+            <div class="register__close" onclick="createClose()">
+                <i class="fa fa-close"></i>
+            </div>
+
+        </div>
+    </div>
 
 </main>    
 <script src="./js/jquery.min.js"></script>
